@@ -1,0 +1,152 @@
+.body{
+    background-color: #ffffff;
+}
+
+.content {
+	position: relative;
+	margin: auto;
+	width: 314px;
+	padding-top: 30px;
+}
+
+.texthead {
+	position: absolute;
+	top: 12px;
+	left: 36px;
+	color: black;
+	height: 0px;
+	font-size: 18px;
+}
+
+#d {
+	position: absolute;
+	left: 65px;
+	top: 0px;
+}
+#h {
+	position: absolute;
+	top: 0px;
+	left: 126px;
+}
+#min {
+	position: absolute;
+	top: 0px;
+	left: 185px;
+}
+#s {
+	position: absolute;
+	top: 0px;
+	left: 249px;
+}
+
+@media (min-width:768px){
+    .content {
+        position: relative;
+        margin: auto;
+        width: 500px;
+        padding-top: 30px;
+    }
+    .texthead {
+        position: absolute;
+        top: 65px;
+        left: 78px;
+        color: black;
+        height: 0px;
+    }
+    #d {
+        position: absolute;
+        left: 65px;
+        top: 0px;
+    }
+    #h {
+        position: absolute;
+        top: 0px;
+        left: 126px;
+    }
+    #min {
+        position: absolute;
+        top: 0px;
+        left: 185px;
+    }
+    #s {
+        position: absolute;
+        top: 0px;
+        left: 249px;
+    }
+}
+
+@media (min-width:1024px){
+    .texthead {
+        position: absolute;
+        top: 58px;
+        left: 63px;
+        color: black;
+        height: 0px;
+        font-size:25px;
+    }
+    
+    #d {
+        position: absolute;
+        top:0px;
+        left: 102px;
+    }
+    #h {
+        position: absolute;
+        top: 0px;
+        left: 200px;
+    }
+    #min {
+        position: absolute;
+        top: 0px;
+        left: 294px;
+    }
+    #s {
+        position: absolute;
+        top: 0px;
+        left: 398px;
+    }
+
+}
+
+@media (min-width:1100px){
+    .texthead {
+        position: absolute;
+        top: 116px;
+        left: 150px;
+        color: black;
+        height: 0px;
+        font-size: 35px;
+    }
+    .content {
+        position: relative;
+        margin: auto;
+        width: 1024px;
+        padding-top: 30px;
+    }
+    .floats {
+        text-align: center;
+    }
+    #d {
+        position: absolute;
+        top:0px;
+        left: 206px;
+    }
+    #h {
+        position: absolute;
+        top: 0px;
+        left: 406px;
+    }
+    #min {
+        position: absolute;
+        top: 0px;
+        left: 600px;
+    }
+    #s {
+        position: absolute;
+        top: 0px;
+        left: 808px;
+    }
+    .cancer{
+        width: 495px;
+    }
+}
