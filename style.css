@@ -15,7 +15,8 @@
 	left: 36px;
 	color: black;
 	height: 0px;
-	font-size: 18px;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
 }
 
 #d {
@@ -38,7 +39,9 @@
 	top: 0px;
 	left: 249px;
 }
-
+.volumeknob1{
+    
+}
 @media (min-width:768px){
     .content {
         position: relative;
