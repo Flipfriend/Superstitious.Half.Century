@@ -128,9 +128,9 @@
                     + methods.ul('hour', t.h.d2, t.h.d1)
                     + methods.ul('minute', t.m.d2, t.m.d1)
                     + methods.ul('second', t.s.d2, t.s.d1)
-                    // + '<audio id="flipclick">'
+                    + '<audio id="flipclick">'
                     // + '<source src="https://github.com/gokercebeci/flipclock/blob/master/js/plugins/flipclock/click.mp3?raw=true" type="audio/mpeg"/>'
-                    // + '</audio>');
+                    + '</audio>');
 
             setInterval($.proxy(this.refresh, this), 1000);
 
