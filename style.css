@@ -42,6 +42,13 @@
 .volumeknob1{
     
 }
+
+h3{
+    color:black;
+    font-size: 18px;
+    font-family:'Raleway' sans-serif;
+}
+
 @media (min-width:768px){
     .content {
         position: relative;
