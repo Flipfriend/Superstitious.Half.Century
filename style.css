@@ -66,8 +66,8 @@ address {
     font-family:'Raleway', sans-serif;
     font-size:18px;
 }
-p{
-    font-size:
+.content >a {
+    font-size: 22px;
 }
 
 @media (min-width:768px){
