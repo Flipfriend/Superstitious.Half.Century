@@ -12,8 +12,8 @@
 
 .texthead {
 	position: absolute;
-	top: 22px;
-	left: 7px;
+	top: 20px;
+	left: 8px;
 	color: black;
 	height: 0px;
 	font-size: 10px;
@@ -52,6 +52,10 @@ h3, h4 {
 h3, address {
     color:black;
     font-size: 18px;
+    text-align: center;
+}
+
+address {
     font-family:'Raleway', sans-serif;
 }
 
@@ -71,23 +75,23 @@ h3, address {
     }
     #d {
         position: absolute;
-        left: 65px;
         top: 0px;
+        left: 68px;
     }
     #h {
         position: absolute;
         top: 0px;
-        left: 126px;
+        left: 128px;
     }
     #min {
         position: absolute;
         top: 0px;
-        left: 185px;
+        left: 190px;
     }
     #s {
         position: absolute;
         top: 0px;
-        left: 249px;
+        left: 252px;
     }
 }
 
