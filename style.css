@@ -21,6 +21,26 @@ body{
 .navbar >a:visited {
   color: red;
 }
+ /* unvisited link */
+.navbar >a:link {
+  color: black;
+  line-height: 33px;
+}
+
+/* visited link */
+.navbar >a:visited {
+  color: red;
+}
+
+/* mouse over link */
+.navbar >a:hover {
+  color: grey;
+}
+
+/* selected link */
+.navbar >a:active {
+  color: red;
+} 
 
 .texthead {
 	position: absolute;
