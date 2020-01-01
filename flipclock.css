@@ -86,6 +86,7 @@ ul.flip li {
     width: 49%;
     height: 100%;
     -webkit-perspective: 200px;
+    perspective: 200px;
     list-style: none;
 }
 
@@ -126,11 +127,13 @@ ul.flip li div .shadow {
 
 ul.flip li div.up {
     -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
     top: 0;
 }
 
 ul.flip li div.down {
     -webkit-transform-origin: 50% 0%;
+    transform-origin: 50% 0%;
     bottom: 0;
 }
 
@@ -195,10 +198,11 @@ body.play ul section.ready {
 
 body.play ul section.active {
     -webkit-animation: index .5s .5s linear both;
+    animation: index .5s .5s linear both;
     z-index: 2;
 }
 
-@-webkit-keyframes index {
+@keyframes index {
     0% {
         z-index: 2;
     }
@@ -213,9 +217,10 @@ body.play ul section.active {
 body.play ul section.active .down {
     z-index: 2;
     -webkit-animation: flipdown .5s .5s linear both;
+    animation: flipdown .5s .5s linear both;
 }
 
-@-webkit-keyframes flipdown {
+@keyframes flipdown {
     0% {
         -webkit-transform: rotateX(90deg);
     }  
@@ -233,9 +238,10 @@ body.play ul section.active .down {
 body.play ul section.ready .up {
     z-index: 2;
     -webkit-animation: flipup .5s linear both;
+    animation: flipup .5s linear both;
 }
 
-@-webkit-keyframes flipup {
+@keyframes flipup {
     0% {
         -webkit-transform: rotateX(0deg);
     }  
@@ -256,6 +262,7 @@ body.play ul section.ready .up .shadow {
     background: linear-gradient(top, rgba(0, 0, 0, .1) 0%, rgba(0, 0, 0, 1) 100%);
     background: linear-gradient(to bottom, rgba(0, 0, 0, .1) 0%, rgba(0, 0, 0, 1) 100%);
     -webkit-animation: show .5s linear both;
+    animation: show .5s linear both;
 }
 
 body.play ul section.active .up .shadow {
@@ -263,6 +270,7 @@ body.play ul section.active .up .shadow {
     background: linear-gradient(top, rgba(0, 0, 0, .1) 0%, rgba(0, 0, 0, 1) 100%);
     background: linear-gradient(to bottom, rgba(0, 0, 0, .1) 0%, rgba(0, 0, 0, 1) 100%);
     -webkit-animation: hide .5s .3s linear both;
+    animation: hide .5s .3s linear both;
 }
 
 /*DOWN*/
@@ -272,6 +280,7 @@ body.play ul section.ready .down .shadow {
     background: linear-gradient(top, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, .1) 100%);
     background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, .1) 100%);
     -webkit-animation: show .5s linear both;
+    animation: show .5s linear both;
 }
 
 body.play ul section.active .down .shadow {
@@ -279,6 +288,7 @@ body.play ul section.active .down .shadow {
     background: linear-gradient(top, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, .1) 100%);
     background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, .1) 100%);
     -webkit-animation: hide .5s .3s linear both;
+    animation: hide .5s .3s linear both;
 }
 
 @keyframes show {
