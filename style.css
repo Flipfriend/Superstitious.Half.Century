@@ -57,7 +57,7 @@ h4, p {
 	left: 254px;
 }
 #top_right:hover {
-	color: red;
+	background-color: red;
 }
 
 h3, h4 {
