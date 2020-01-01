@@ -1,6 +1,5 @@
-.body{
+body{
     background-color: #ffffff;
-    /* font-family:'Raleway', sans-serif; */
 }
 
 .content {
@@ -8,6 +7,10 @@
 	margin: auto;
 	width: 314px;
 	padding-top: 30px;
+}
+
+.navbar{
+    font-family:'Raleway', sans-serif;
 }
 
 .texthead {
@@ -172,7 +175,7 @@ address {
     }
     .cancer{
         width: 497px;
-        margin-top: -32px;
+        margin-top: -118px;
     }
     
     h3, h4 {
