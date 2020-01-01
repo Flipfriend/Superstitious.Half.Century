@@ -239,4 +239,7 @@ address {
     color: black;
     line-height: 56px;
     }
+    .content:last-child{
+        margin-bottom: 50px;
+    }
 }
