@@ -74,22 +74,22 @@ address {
     font-family: 'Raleway',sans-serif;
 }
  /* unvisited link */
-a:link {
+.content >a:link {
   color: black;
 }
 
 /* visited link */
-a:visited {
+.content >a:visited {
   color: red;
 }
 
 /* mouse over link */
-a:hover {
+.content >a:hover {
   color: grey;
 }
 
 /* selected link */
-a:active {
+.content >a:active {
   color: red;
 } 
 
