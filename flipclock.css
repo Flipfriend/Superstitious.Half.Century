@@ -281,7 +281,7 @@ body.play ul section.active .down .shadow {
     -webkit-animation: hide .5s .3s linear both;
 }
 
-@-webkit-keyframes show {
+@keyframes show {
     0% {
         opacity: 0;
     }
@@ -293,7 +293,7 @@ body.play ul section.active .down .shadow {
     }
 }
 
-@-webkit-keyframes hide {
+@keyframes hide {
     0% {
         opacity: 1;
     }  
