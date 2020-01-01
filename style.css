@@ -47,10 +47,9 @@ h4, p {
 	top: 0px;
 	left: 254px;
 }
-.volumeknob1:hover {
-	color: gray;
-	cursor: pointer;
-	opacity: 0.7;
+#top_right:hover {
+	color: grey;
+	opacity: 0.8;
 }
 
 h3, h4 {
