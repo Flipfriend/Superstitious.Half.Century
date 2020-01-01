@@ -71,9 +71,10 @@ address {
     font-size:18px;
 }
 .content >a {
-    font-size: 22px;
+    font-size: 14px;
     font-family: 'Raleway',sans-serif;
     text-decoration:none;
+    line-height: 31px;
 }
  /* unvisited link */
 .content >a:link {
