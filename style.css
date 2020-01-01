@@ -233,5 +233,6 @@ address {
         font-size: 36px;
         font-family: 'Raleway',sans-serif;
         text-decoration:none;
+        line-height: 44px;
     }
 }
