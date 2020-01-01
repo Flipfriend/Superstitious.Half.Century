@@ -8,9 +8,12 @@ body{
 	width: 314px;
 	padding-top: 30px;
 }
-
 .navbar{
     font-family:'Raleway', sans-serif;
+    font-size:30px;
+}
+.navbar>a:active{
+    color: red;
 }
 
 .texthead {
@@ -48,7 +51,7 @@ h4, p {
 	left: 254px;
 }
 #top_right:hover {
-	color: grey;
+	color: red;
 	opacity: 0.8;
 }
 
@@ -68,7 +71,27 @@ address {
 }
 .content >a {
     font-size: 22px;
+    font-family: 'Raleway',sans-serif;
 }
+ /* unvisited link */
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: red;
+}
+
+/* mouse over link */
+a:hover {
+  color: grey;
+}
+
+/* selected link */
+a:active {
+  color: red;
+} 
 
 @media (min-width:768px){
     .content {
