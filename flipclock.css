@@ -220,7 +220,7 @@ body.play ul section.active .down {
     animation: flipdown .5s .5s linear both;
 }
 
-@keyframes flipdown {
+@-webkit-keyframes flipdown {
     0% {
         -webkit-transform: rotateX(90deg);
     }  
@@ -241,7 +241,7 @@ body.play ul section.ready .up {
     animation: flipup .5s linear both;
 }
 
-@keyframes flipup {
+@-webkit-keyframes flipup {
     0% {
         -webkit-transform: rotateX(0deg);
     }  
@@ -291,7 +291,7 @@ body.play ul section.active .down .shadow {
     animation: hide .5s .3s linear both;
 }
 
-@keyframes show {
+@-webkit-keyframes show {
     0% {
         opacity: 0;
     }
@@ -303,7 +303,7 @@ body.play ul section.active .down .shadow {
     }
 }
 
-@keyframes hide {
+@-webkit-keyframes hide {
     0% {
         opacity: 1;
     }  
