@@ -12,36 +12,41 @@
 
 .texthead {
 	position: absolute;
-	top: 12px;
-	left: 36px;
+	top: 22px;
+	left: 7px;
 	color: black;
 	height: 0px;
-    font-size: 18px;
-    font-family: 'Raleway', sans-serif;
+	font-size: 10px;
+	font-family: 'Raleway', sans-serif;
 }
 
 #d {
 	position: absolute;
-	left: 65px;
-	top: 0px;
+    top: 0px;
+    left:70px;
 }
 #h {
 	position: absolute;
 	top: 0px;
-	left: 126px;
+	left: 128px;
 }
 #min {
 	position: absolute;
 	top: 0px;
-	left: 185px;
+	left: 192px;
 }
 #s {
 	position: absolute;
 	top: 0px;
-	left: 249px;
+	left: 254px;
 }
 .volumeknob1{
     
+}
+
+h3, h4 {
+    font-family: 'Roboto Mono', monospace;
+    font-size:22px;
 }
 
 h3, address {
