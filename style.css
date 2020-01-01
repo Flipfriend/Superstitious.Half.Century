@@ -229,4 +229,9 @@ address {
         font-family:'Raleway', sans-serif;
         font-size:33px;
     }
+    .content >a {
+        font-size: 36px;
+        font-family: 'Raleway',sans-serif;
+        text-decoration:none;
+    }
 }
