@@ -57,7 +57,8 @@ h4, p {
 	left: 254px;
 }
 #top_right:hover {
-	fill: red;
+    fill: red;
+    opacity: .6;
 }
 
 h3, h4 {
