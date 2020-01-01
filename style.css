@@ -1,5 +1,6 @@
 .body{
     background-color: #ffffff;
+    font-family:'Raleway', sans-serif;
 }
 
 .content {
@@ -43,10 +44,10 @@
     
 }
 
-h3,address{
+h3, address {
     color:black;
     font-size: 18px;
-    font-family:'Raleway' sans-serif;
+    font-family:'Raleway', sans-serif;
 }
 
 @media (min-width:768px){
