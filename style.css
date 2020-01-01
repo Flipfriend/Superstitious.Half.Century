@@ -11,10 +11,15 @@ body{
 .navbar{
     font-family:'Raleway', sans-serif;
     font-size:30px;
-    text-decoration: none;
+    text-decoration:none;
 }
 .navbar>a:active{
     color: red;
+    text-decoration:none;
+}
+/* visited link */
+.navbar >a:visited {
+  color: red;
 }
 
 .texthead {
