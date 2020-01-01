@@ -20,6 +20,10 @@
 	font-family: 'Raleway', sans-serif;
 }
 
+h4, p {
+    color:black;
+}
+
 #d {
 	position: absolute;
     top: 0px;
