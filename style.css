@@ -136,13 +136,13 @@ h3, .local {
 
 .button{
 	width: 100%;
-	height: 30px;
 	color: #ffff;
 	background-color: black;
 	font-size: 17px;
 	border: none;
 	font-family: 'Raleway', san serif;
-	text-decoration: none;
+    text-decoration: none;
+    padding:10px;
 }
  /* unvisited link */
 .button >a:link {
@@ -196,6 +196,9 @@ h3, .local {
         position: absolute;
         top: 0px;
         left: 252px;
+    }
+    h3{
+        margin-top:45px;
     }
 }
 
