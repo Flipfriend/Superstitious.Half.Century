@@ -51,6 +51,7 @@ h1 {
     position: relative;
     /* top: 100px;
     left: 100px; */
+    display:none;
 }
 .flipclock hr {
     position: absolute;
@@ -162,6 +163,10 @@ ul.flip li div.down div.inn {
 
 /* ******* Medium screens******** */
 @media (min-width:768px){
+    .flipclock {
+        position: relative;
+        
+    }
     ul.flip {
         position: relative;
         float: left;
@@ -173,10 +178,15 @@ ul.flip li div.down div.inn {
         font-weight: bold;
         line-height: 70px;
     }
+
 }
 
 /* *******Large screens******** */
 @media (min-width:1024px){
+    .flipclock {
+        position: relative;
+        
+    }
     ul.flip {
         position: relative;
         float: left;
