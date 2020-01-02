@@ -30,11 +30,13 @@ body{
 .navbar >a:link {
   color: black;
   line-height: 33px;
+  text-decoration: none;
 }
 
 /* visited link */
 .navbar >a:visited {
   color: red;
+  text-decoration: none;
 }
 
 /* mouse over link */
