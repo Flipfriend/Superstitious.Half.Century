@@ -8,7 +8,12 @@ body{
 	width: 314px;
 	padding-top: 30px;
 }
-.navbar{
+.navbar {
+    font-family:'Raleway', sans-serif;
+    font-size:30px;
+    text-decoration:none;
+}
+.navbar>a{
     font-family:'Raleway', sans-serif;
     font-size:30px;
     text-decoration:none;
