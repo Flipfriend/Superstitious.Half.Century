@@ -59,7 +59,7 @@ body{
 	font-family: 'Raleway', sans-serif;
 }
 
-h4, p {
+h4, .local {
     color:black;
 }
 
@@ -83,22 +83,22 @@ h4, p {
 	top: 0px;
 	left: 254px;
 }
-#top_right:hover {
+/* #top_right:hover {
     fill: red;
     opacity: .8;
-}
+} */
 
 h3, h4 {
     font-family: 'Roboto Mono', monospace;
     font-size:22px;
 }
 
-h3, address {
+h3, .local {
     color:black;
     text-align: center;
 }
 
-address {
+.local {
     font-family:'Raleway', sans-serif;
     font-size:18px;
 }
@@ -247,12 +247,12 @@ address {
         margin:34px 10px;
     }
 
-    h3, address {
+    h3, .local {
         color:black;
         text-align: center;
     }
 
-    address {
+    .local {
         font-family:'Raleway', sans-serif;
         font-size:33px;
     }
@@ -274,7 +274,7 @@ address {
         font-size:40px;
         text-decoration:none;
     }
-    .navbar>a:active{
+    .navbar >a:active{
         color: red;
         text-decoration:none;
     }

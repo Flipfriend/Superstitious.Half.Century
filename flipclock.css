@@ -162,16 +162,16 @@ ul.flip li div.down div.inn {
 /* ******* Medium screens******** */
 @media (min-width:768px){
     ul.flip {
-	position: relative;
-	float: left;
-	margin: 5px;
-	padding: 0px;
-	width: 88px;
-	height: 69px;
-	font-size: 70px;
-	font-weight: bold;
-	line-height: 70px;
-}
+        position: relative;
+        float: left;
+        margin: 5px;
+        padding: 0px;
+        width: 88px;
+        height: 69px;
+        font-size: 70px;
+        font-weight: bold;
+        line-height: 70px;
+    }
 }
 
 /* *******Large screens******** */
