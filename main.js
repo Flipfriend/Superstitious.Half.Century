@@ -148,9 +148,9 @@
                 t = methods.time()
 
             // second sound
-            setTimeout(function () {
-                document.getElementById('flipclick').play()
-            }, 500);
+            // setTimeout(function () {
+            //     document.getElementById('flipclick').play()
+            // }, 500);
 
             // second first digit
             el.find(".second .d1 .ready .inn").html(t.s.d1);
