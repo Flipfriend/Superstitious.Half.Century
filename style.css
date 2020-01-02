@@ -8,22 +8,22 @@ body{
 	width: 314px;
 	padding-top: 30px;
 }
-.navbar {
+.navbar{
     font-family:'Raleway', sans-serif;
     font-size:30px;
     text-decoration:none;
 }
-.navbar>a{
+.navbar >a{
     font-family:'Raleway', sans-serif;
     font-size:30px;
     text-decoration:none;
 }
-.navbar>a:active{
+.navbar >a:active{
     color: red;
     text-decoration:none;
 }
 /* visited link */
-.navbar >a:visited {
+.navbar,li >a:visited {
   color: red;
 }
  /* unvisited link */
