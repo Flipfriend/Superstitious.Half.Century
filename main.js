@@ -227,4 +227,4 @@
 
 
 // RUN
-$('#container').flipclock('2020 07 25 18:00:00');
+$('#container').flipclock('2020, 07, 25, 18:00:00');
