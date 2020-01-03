@@ -9,6 +9,9 @@ body{
     /* add padding once clock is go */
 	/* padding-top: 30px; */
 }
+#bandButton{
+    margin-top:20px;
+}
 .navbar{
     font-family:'Raleway', sans-serif;
     font-size:30px;
