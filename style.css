@@ -26,6 +26,7 @@ body{
 .navbar,li >a:visited {
     color: red;
     text-decoration: none;
+    list-style: none;
 }
 
  /* unvisited link */
