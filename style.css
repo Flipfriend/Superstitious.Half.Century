@@ -5,8 +5,9 @@ body{
 .content {
 	position: relative;
 	margin: auto;
-	width: 314px;
-	padding-top: 30px;
+    width: 314px;
+    /* add padding once clock is go */
+	/* padding-top: 30px; */
 }
 .navbar{
     font-family:'Raleway', sans-serif;

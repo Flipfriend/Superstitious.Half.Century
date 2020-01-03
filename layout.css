@@ -5,7 +5,8 @@ body{
     float:left;
     width: 100%;
     min-height: 109px;
-    margin-bottom: 10px;
+    /* added back once clock is live */
+    /* margin-bottom: 10px; */
 }
 .maincontain{
     margin:auto;
