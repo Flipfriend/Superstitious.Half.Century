@@ -213,6 +213,12 @@ h3, .local {
     margin-top: 33px;
 }
 
+.details{
+    color:black;
+    font-size:11px;
+    font-family: 'Raleway', sans-serif;
+}
+
 @media (min-width:768px){
     .content {
         position: relative;
@@ -282,6 +288,7 @@ h3, .local {
     #invite{
         margin-top: 45px;
     }
+
 }
 
 @media (min-width:1024px){
