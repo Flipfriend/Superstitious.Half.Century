@@ -201,7 +201,7 @@ h3, .local {
 #countDown {
 	text-align: center;
 	font-size: 24px;
-	font-family: 'Roboto mono', monospace;
+	font-family: monospace;
 	color: red;
 	background-color: black;
 	padding: 7px;
