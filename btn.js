@@ -1,8 +1,8 @@
 $(document).ready(function () {
-    
+
     $('#pBtn').click(function () {
         
-        $('.hidden').toggle("slow",function(){
+        $('.addon').toggle("ease in",function(){
             console.log('added message')
 
         });
