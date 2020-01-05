@@ -193,6 +193,16 @@ h3, .local {
 /* .addon{
 
 } */
+#countDown {
+	text-align: center;
+	font-size: 31px;
+	font-family: monospace;
+	color: red;
+	background-color: black;
+	padding: 10px;
+	display: inline-block;
+	margin: auto;
+}
 
 @media (min-width:768px){
     .content {
