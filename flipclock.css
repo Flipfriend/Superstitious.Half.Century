@@ -198,6 +198,14 @@ ul.flip li div.down div.inn {
         font-weight: bold;
         line-height: 127px;
     }
+    #mask {
+        position: absolute;
+        top: 0;
+        left: -20px;
+        width: 100%;
+        height: 100%;
+        z-index: 2;
+    }
 }    
 /*--------------------------------------
  PLAY
