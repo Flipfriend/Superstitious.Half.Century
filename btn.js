@@ -1,13 +1,11 @@
 $(document).ready(function () {
     
     $('#pBtn').click(function () {
-            $('.porbtn').toggleClass('partyInvite');
-        })
-
-    $('#pBtn').click(function () {
         
-            $('.porbtn').toggleClass('.addon');
+        $('.hidden').toggle("slow",function(){
             console.log('added message')
-    })
 
-});
+        });
+
+    })
+})
