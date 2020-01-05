@@ -107,7 +107,7 @@ h3, h4 {
 h3, .local {
     color:black;
     text-align: center;
-    margin: 12px 0px;
+    margin: 10px 0px;
 }
 
 .local {
@@ -210,7 +210,7 @@ h3, .local {
 }
 
 .date{
-    margin-top: -36px;
+    margin-top: -22px;
 }
 
 @media (min-width:768px){
