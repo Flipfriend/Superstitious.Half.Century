@@ -107,6 +107,7 @@ h3, h4 {
 h3, .local {
     color:black;
     text-align: center;
+    margin: 12px 0px;
 }
 
 .local {
@@ -193,15 +194,23 @@ h3, .local {
 /* .addon{
 
 } */
+.mobiletimer {
+	position: relative;
+	top: -39px;
+}
 #countDown {
 	text-align: center;
-	font-size: 28px;
+	font-size: 24px;
 	font-family: 'Roboto mono', monospace;
 	color: red;
 	background-color: black;
-	padding: 10px;
+	padding: 7px;
 	display: inline-block;
 	margin: auto;
+}
+
+.date{
+    margin-top: -36px;
 }
 
 @media (min-width:768px){
@@ -241,6 +250,16 @@ h3, .local {
     h3{
         margin-top:45px;
     }
+    #countDown {
+	text-align: center;
+	font-size: 28px;
+	font-family: 'Roboto mono', monospace;
+	color: red;
+	background-color: black;
+	padding: 10px;
+	display: none;
+	margin: auto;
+}
 }
 
 @media (min-width:1024px){
