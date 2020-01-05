@@ -175,7 +175,7 @@ h3, .local {
 	width: 118px;
 	border: 2px solid black;
 	padding: 9px 22px;
-	margin: 30px 0px;
+	margin: 0px 0px 30px 0px;
 	cursor: pointer;
 }
 .addon {
@@ -213,10 +213,12 @@ h3, .local {
     margin-top: 33px;
 }
 
-.details{
-    color:black;
-    font-size:11px;
-    font-family: 'Raleway', sans-serif;
+.details {
+	color: black;
+	font-size: 11px;
+	font-family: 'Raleway', sans-serif;
+	margin-top: 38px;
+	margin-bottom: 8px;
 }
 
 @media (min-width:768px){
