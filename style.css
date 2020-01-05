@@ -176,6 +176,16 @@ h3, .local {
 	margin-top: 35px;
 	cursor: pointer;
 }
+.addon{
+	color: black;
+	width: 200px;
+	margin: auto;
+    line-height: 25px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    text-align: center;
+}
+
 @media (min-width:768px){
     .content {
         position: relative;
