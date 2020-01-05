@@ -24,7 +24,11 @@
     <div class="maincontain">
         <div class="floats sm-width-100 md-width-100 lg-width-100">
             <div class="content">
+                <div class="mobiletimer">
+                    <p id=countDown></p>
+                </div>
                 <div class="texthead">
+                    
                     <h2 id=m>Month</h2>
                     <h2 id=d>Day</h2>
                     <h2 id=h>Hour</h2>
@@ -33,9 +37,13 @@
                 </div>
                 <div class="floats sm-width-100 md-width-50 lg-width-100">
                     <div class="content">
-                        <h3>Saturday July 25 2020</h3>
+                        <h3 class="date">Saturday July 25 2020</h3>
                         <h3>Saint Rocke</h3>
                         <p class="local">Hermosa Beach, CA</p>
+                        <div id="invite" class="partyinvite"><p class="addon hidden">Let's party. Join us at the famous Saint Rocke in hermosa beach to celebrate 50 weird years. Enjoy a few hours of
+                        some of our favorite rock,dance funk, and pop songs. Played by the group of some of LA's finest session musicians. Eat,
+                        drink, eat, drink some more. Bang your head. Shake your booty. See you there. <br> - Chris & Kimm</p></div>
+                        <img id="pBtn"class="porbtn"src="images/porpoise.png" alt="porpoise" title="Party Invite">
                     </div>
                 </div>
                 <div id="mask">
@@ -655,5 +663,6 @@
 <!--Scripts-->
 <script src="jquery-1.8.3.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<script src="btn.js"></script>
 <script src="main.js"></script>
 </html>
