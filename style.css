@@ -251,15 +251,37 @@ h3, .local {
         margin-top:45px;
     }
     #countDown {
-	text-align: center;
-	font-size: 28px;
-	font-family: 'Roboto mono', monospace;
-	color: red;
-	background-color: black;
-	padding: 10px;
-	display: none;
-	margin: auto;
-}
+        text-align: center;
+        font-size: 28px;
+        font-family: 'Roboto mono', monospace;
+        color: red;
+        background-color: black;
+        padding: 10px;
+        display: none;
+        margin: auto;
+    }
+    .porbtn {
+        width: 181px;
+        border: 2px solid black;
+        padding: 9px 22px;
+        margin: 30px 0px;
+        cursor: pointer;
+    }
+        .addon {
+        display: none;
+        color: black;
+        width: 400px;
+        margin: auto;
+        line-height: 39px;
+        font-family: 'Raleway', sans-serif;
+        font-size: 28px;
+        text-align: center;
+        padding: 14px;
+        border: 2px solid black;
+    }
+    #invite{
+        margin-top: 45px;
+    }
 }
 
 @media (min-width:1024px){
