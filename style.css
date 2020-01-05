@@ -178,6 +178,7 @@ h3, .local {
 	cursor: pointer;
 }
 .addon{
+    display: none;
 	color: black;
 	width: 200px;
 	margin: auto;
@@ -186,10 +187,10 @@ h3, .local {
     font-size: 17px;
     text-align: center;
 }
-hidden
-.addon{
-    display:none;
-}
+/* hidden */
+/* .addon{
+
+} */
 
 @media (min-width:768px){
     .content {

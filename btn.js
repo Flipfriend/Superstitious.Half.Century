@@ -2,7 +2,7 @@ $(document).ready(function () {
 
     $('#pBtn').click(function () {
         
-        $('.addon').toggle("ease in",function(){
+        $('.addon').toggle("slide up",function(){
             console.log('added message')
 
         });
