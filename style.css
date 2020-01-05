@@ -218,8 +218,9 @@ h3, .local {
 	margin-top: 38px;
 	margin-bottom: 8px;
 }
-.content a:last-child{
-    margin-bottom: 50px;
+.content a:last-child {
+	margin-bottom: 54px;
+	padding-bottom: 50px;
 }
 
 @media (min-width:768px){
@@ -396,8 +397,9 @@ h3, .local {
         line-height: 56px;
         text-decoration:none;
     }
-    .content a:last-child{
-        margin-bottom: 50px;
+    .content a:last-child {
+        margin-bottom: 54px;
+        padding-bottom: 50px;
     }
     .navbar{
         font-family:'Raleway', sans-serif;
