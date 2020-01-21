@@ -267,7 +267,7 @@ h3, .local {
         color: red;
         background-color: black;
         padding: 10px;
-        display: none;
+        /* display: none; */
         margin: auto;
     }
     .porbtn {

@@ -165,7 +165,7 @@ ul.flip li div.down div.inn {
 @media (min-width:768px){
     .flipclock {
         position: relative;
-        display: inherit;
+        display: none;
     }
     ul.flip {
         position: relative;
@@ -185,7 +185,7 @@ ul.flip li div.down div.inn {
 @media (min-width:1024px){
     .flipclock {
         position: relative;
-        display: inherit;
+        display: none;
     }
     ul.flip {
         position: relative;
