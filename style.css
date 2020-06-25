@@ -13,6 +13,9 @@ body{
 #bandButton{
     margin-top:20px;
 }
+#upd8Button{
+    color:
+}
 .navbar{
     font-family:'Raleway', sans-serif;
     font-size:30px;
@@ -171,6 +174,37 @@ h3, .local {
     color: grey;
     text-decoration: none;
 }
+/* udpate button styling */
+.upd8{
+	width: 100%;
+	color: black;
+	background-color: #ffffff;
+	font-size: 17px;
+	border: 2px solid red;
+	font-family: 'Raleway', san serif;
+    text-decoration: none;
+    padding:10px;
+    margin:0 10px 15px 0;
+}
+ /* unvisited link */
+.upd8 >a:link {
+    color: black;
+    line-height: 33px;
+    text-decoration: none;
+}
+
+/* visited link */
+.upd8 >a:visited {
+    color: red;
+    text-decoration: none;
+}
+
+/* mouse over link */
+.upd8 >a:hover {
+    color: grey;
+    text-decoration: none;
+}
+
 .porbtn {
 	width: 118px;
 	border: 2px solid black;
