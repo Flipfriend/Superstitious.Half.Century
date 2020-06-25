@@ -110,11 +110,17 @@ h3, .local {
     text-align: center;
     margin: 10px 0px;
 }
+h5{
+    text-align: left;
+    font-family: 'Roboto Mono', monospace;
+    font-size:25px;
+    font-style:italic;
+}
 .localup {
-        font-family:'Raleway', sans-serif;
-        font-size:18px;
-        text-align: left;
-    }
+    font-family:'Raleway', sans-serif;
+    font-size:18px;
+    text-align: left;
+}
 
 .local {
     font-family:'Raleway', sans-serif;
@@ -264,7 +270,8 @@ h3, .local {
     color: black;
 }
 .italics{
-    text-emphasis: italics;
+    font-style: italic;
+    text-align: left;
 }
 .dent{
     margin-left:35px;
