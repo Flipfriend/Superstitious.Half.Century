@@ -464,4 +464,15 @@ h3, .local {
         text-decoration: none;
         padding:10px;
     }
+    .upd8{
+	width: 28%;
+	color: black;
+	background-color: #ffffff;
+	font-size: 17px;
+	border: 2px solid red;
+	font-family: 'Raleway', san serif;
+    text-decoration: none;
+    padding:10px;
+    margin:45px 10px 15px 0;
+    }
 }
