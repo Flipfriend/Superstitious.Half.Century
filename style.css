@@ -419,8 +419,12 @@ h3, .local {
         width: 497px;
         margin-top: -118px;
     }
-    
-    h3, h4 {
+    h1 {
+        font-family: 'Roboto Mono', monospace;
+        font-size:66px;
+        margin:34px 10px;
+    }
+    h2,h3, h4 {
         font-family: 'Roboto Mono', monospace;
         font-size:56px;
         margin:34px 10px;
