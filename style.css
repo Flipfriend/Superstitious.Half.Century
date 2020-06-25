@@ -254,6 +254,16 @@ h3, .local {
 	margin-bottom: 54px;
 	padding-bottom: 50px;
 }
+.updatepara{
+    text-align: left;
+    color: black;
+}
+.italics{
+    text-emphasis: italics;
+}
+.dent{
+    margin-left:35px;
+}
 
 @media (min-width:768px){
     .content {
