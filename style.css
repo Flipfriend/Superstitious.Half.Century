@@ -110,6 +110,11 @@ h3, .local {
     text-align: center;
     margin: 10px 0px;
 }
+.localup {
+        font-family:'Raleway', sans-serif;
+        font-size:18px;
+        text-align: left;
+    }
 
 .local {
     font-family:'Raleway', sans-serif;
@@ -419,12 +424,8 @@ h3, .local {
         width: 497px;
         margin-top: -118px;
     }
-    h1 {
-        font-family: 'Roboto Mono', monospace;
-        font-size:66px;
-        margin:34px 10px;
-    }
-    h2,h3, h4 {
+    
+    h3, h4 {
         font-family: 'Roboto Mono', monospace;
         font-size:56px;
         margin:34px 10px;
@@ -438,6 +439,11 @@ h3, .local {
     .local {
         font-family:'Raleway', sans-serif;
         font-size:33px;
+    }
+    .localup {
+        font-family:'Raleway', sans-serif;
+        font-size:20px;
+        text-align: left;
     }
     .content >a {
         font-size: 36px;
