@@ -276,6 +276,9 @@ h5{
 .dent{
     margin-left:35px;
 }
+.spacer{
+    margin-bottom: 150px;
+}
 
 @media (min-width:768px){
     .content {
