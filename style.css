@@ -118,8 +118,10 @@ h5{
 }
 .localup {
     font-family:'Raleway', sans-serif;
-    font-size:18px;
+    font-size:16px;
     text-align: left;
+    line-height: 1.5;
+
 }
 
 .local {
