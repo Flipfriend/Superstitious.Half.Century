@@ -14,11 +14,14 @@ body{
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin-top: 150px;
+    justify-content: space-evenly;
 }
 
-/* .flexkid{
+.flexkid{
+    margin: 0px 20px 0px 20px;
 
-} */
+}
 
 #bandButton{
     margin-top:20px;
