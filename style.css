@@ -27,6 +27,8 @@ body{
 }
 .flexspace{
     flex-grow: 6;
+    width: 160px;
+    height: 300px;
 }
 
 .navbar{
