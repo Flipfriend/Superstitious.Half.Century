@@ -10,6 +10,16 @@ body{
     /* padding-top: 30px; */
     text-align: center;
 }
+.flex{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* .flexkid{
+
+} */
+
 #bandButton{
     margin-top:20px;
 }
