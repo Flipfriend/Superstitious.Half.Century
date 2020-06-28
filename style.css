@@ -15,7 +15,7 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 150px;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .flexkid{
@@ -24,6 +24,9 @@ body{
 
 #bandButton{
     margin-top:20px;
+}
+.flexspace{
+    flex-grow: 6;
 }
 
 .navbar{
