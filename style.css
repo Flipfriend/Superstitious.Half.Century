@@ -337,6 +337,7 @@ h6{
 .linkage{
     box-shadow: 0 -0.5px 0 0 gray inset;
     transition: box-shadow 0.2s;
+    text-decoration: none;
 }
 
 .linkage:hover a{
