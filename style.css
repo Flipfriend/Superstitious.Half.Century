@@ -335,12 +335,12 @@ h6{
 }
 
 .linkage{
-    box-shadow: inset 0 -0.5rem 0 0 gray;
+    box-shadow: 0 -0.5px 0 0 gray inset;
     transition: box-shadow 0.2s;
 }
 
 .linkage:hover a{
-    box-shadow: inset 0 -2.5rem 0 0 red;
+    box-shadow:  0 -2.5px 0 0 red inset;
 }
 
 @media (min-width:768px){
