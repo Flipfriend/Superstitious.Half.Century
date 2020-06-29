@@ -273,7 +273,8 @@ h6{
 
 .mobiletimer {
 	position: relative;
-	top: 11px;
+    top: 11px;
+    margin-top: 50px;
 }
 #countDown {
 	text-align: center;
@@ -548,15 +549,15 @@ h6{
         padding:10px;
     }
     .upd8{
-	width: 28%;
-	color: black;
-	background-color: #ffffff;
-	font-size: 17px;
-	border: 2px solid red;
-	font-family: 'Raleway', san serif;
-    text-decoration: none;
-    padding:10px;
-    margin:45px 10px 15px 0;
+        width: 28%;
+        color: black;
+        background-color: #ffffff;
+        font-size: 17px;
+        border: 2px solid red;
+        font-family: 'Raleway', san serif;
+        text-decoration: none;
+        padding:10px;
+        margin:45px 10px 15px 0;
     }
     .dent{
     margin-left:35px;
@@ -574,7 +575,9 @@ h6{
         border-radius: 50%;
         margin: auto;
     }
-
+    .mobiletimer {
+        margin-top: 0px;
+    }  
     .bandh3{
         margin-top: 90px;
     }
