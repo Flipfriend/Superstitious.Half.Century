@@ -128,7 +128,6 @@ h3, .local {
     margin: 10px 0px;
 }
 h5{
-    text-align: left;
     font-family: 'Roboto Mono', monospace;
     font-size:25px;
     font-style:italic;
@@ -142,6 +141,7 @@ h6{
     line-height: 1.5;
     color:black;
     margin: 0px 6px 0px 6px;
+    text-align: center;
 }
 .bandh3{
     margin-top:150px;
